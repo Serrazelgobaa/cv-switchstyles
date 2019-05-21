@@ -37,11 +37,23 @@ nav#main_menu {
 }
 
 nav#menu_skills {
-
+	text-align: center;
+	height: 50px;
+	background-color: pink;
+	width: 100%;
 }
 
 #menu_skills ul {
 	margin: 0;
+}
+
+#menu_skills li {
+	display: inline-block;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	width: 120px;
+	background-color: red;
 }
 
 body > section {
@@ -55,6 +67,35 @@ body > section {
 	padding: 2em;
 }
 
+section h2 {
+	text-align: center;
+}
+
 .hidden {
 	display: none;
 }
+
+.grille_blocs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.bloc_logiciel {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+/* BANQUE COULEURS
+
+Prune : #950952;
+Bleu : #005c69;
+
+*/
