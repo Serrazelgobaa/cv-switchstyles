@@ -1,0 +1,148 @@
+body {
+	font-family: "Roboto", "Verdana", sans-serif;
+	padding: 0;
+	margin: 0;
+	color: rgba(0, 0, 0, 0.87);
+	background-color: #ededed;
+}
+
+header {
+	height: 300px;
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	flex-direction: column;
+	background: url(images/fond_header_light.png), linear-gradient(0.25turn, #006dfc, #23c089);
+	background-repeat: no-repeat;
+	background-position: center right;
+	color: rgba(255, 255, 255, 0.87);
+}
+
+header h1 {
+	font-size: 4em;
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+
+header h2 {
+	margin-left: 50px;
+}
+
+nav#main_menu {
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#main_menu ul {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+#main_menu li {
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+	width: 150px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.87);
+	border-left: 1px solid rgba(0,0,0,0.2);
+}
+
+#main_menu a:last-of-type li {
+	border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+#main_menu li:hover {
+	background-color: #dcdcdc;
+}
+
+nav#menu_skills {
+	height: 50px;
+	width: 100%;
+}
+
+#menu_skills ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+#menu_skills li {
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	width: 120px;
+	margin-left: 20px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+#menu_skills li:hover {
+	font-weight: bold;
+}
+
+li#trigger_logiciels {
+	border-bottom: 3px solid #006dfc;
+}
+
+li#trigger_langages {
+	border-bottom: 3px solid #15b3ca;
+}
+
+li#trigger_autres {
+	border-bottom: 3px solid #23c089;
+}
+
+body > section {
+	background-color: #dcdcdc;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 4%;
+	margin-right: 4%;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+	padding: 2em;
+}
+
+section h2 {
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.grille_blocs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.bloc_logiciel {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+/* BANQUE COULEURS
+
+Prune : #950952;
+Bleu : #005c69;
+
+*/
+
+.container {
+	margin-top: 70px;
+}

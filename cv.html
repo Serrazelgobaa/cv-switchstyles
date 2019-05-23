@@ -2,27 +2,36 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" title="default"/>
 	<title>CV de Tania Juspin</title>
 </head>
-<body>
-	<nav id="main_menu">
+<body class="styleFlex dark">
+	<nav id="main_menu" class="styleFlex dark">
 		<ul>
-			<a href="#skills"><li>Compétences</li></a><a href="#experience"><li>Expériences</li></a><a href="#divers"><li>Divers</li></a>
+			<a href="#skills"><li class="styleFlex dark">Compétences</li></a><a href="#experience"><li class="styleFlex dark">Expériences</li></a><a href="#divers"><li class="styleFlex dark">Divers</li></a>
 		</ul>
+
+		<div id="switch" class="styleFlex dark">
+			<label class="switch">
+  				<input type="checkbox" checked id="trigger_style">
+  				<span class="slider round"></span>
+			</label>
+		</div>
 	</nav>
-	<header>
+	<header class="styleFlex dark">
 		<h1>Tania Juspin</h1>
 		<h2>Développeuse Web full-stack junior</h2>
+		<div id="date_heure">
+		</div>
 	</header>
 	
-	<section id="skills">
+	<section id="skills" class="styleFlex dark">
 		<h2>Compétences</h2>
 		<nav id="menu_skills">
 			<ul>
-				<li id="trigger_logiciels">Logiciels</li>
-				<li id="trigger_langages">Langages</li>
-				<li id="trigger_autres">Autres</li>
+				<li id="trigger_logiciels" class="styleFlex dark">Logiciels</li>
+				<li id="trigger_langages" class="styleFlex dark">Langages</li>
+				<li id="trigger_autres" class="styleFlex dark">Autres</li>
 			</ul>
 		</nav>
 		<div class="container">
@@ -127,7 +136,7 @@
 
 		</div>
 	</section>
-	<section id="experience">
+	<section id="experience" class="styleFlex dark">
 		<h2>Expérience</h2>
 		<h3>Etudes</h3>
 		<ul>
@@ -142,10 +151,26 @@
 		</ul>
 	</section>
 
-	<section id="divers">
+	<section id="divers" class="styleFlex dark">
 		<h2>Autres informations</h2>
 		<h3>Qualités</h3>
+
+		<ul>
+			<li>Rigoureuse</li>
+			<li>Patiente</li>
+			<li>Pédagogue</li>
+			<li>Assoiffée de connaissances</li>
+			<li>Autodidacte</li>
+		</ul>
+
 		<h3>Hobbys</h3>
+
+		<ul>
+			<li>Dessin numérique (tablette graphique) et traditionnel (mediums préférés : encre de Chine et aquarelle</li>
+			<li>Jeux vidéos : stratégie (League of Legends, Starcraft II), combat (Super Smash Bros)</li>
+			<li>Ecriture (en français et en anglais)</li>
+			<li>Composition musicale (FL Studio)</li>
+		</ul>
 	</section>
 
 
